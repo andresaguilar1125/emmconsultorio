@@ -2,7 +2,7 @@ public class Doctor {
 	
 	// Atributos -- Propiedades
 	private String nombre;
-	private Especialidad especialidad;
+	public Especialidad especialidad;
 	private int asigMax;
 	private int asigCurso;
 

@@ -1,4 +1,4 @@
-public enum especialidades {
+public enum Especialidad {
 	/* 
 		Se pone public para que sean consistentes con pacientes y con doctores
 		Al estar public se puede hacer referencia con "Especialidades"
@@ -10,8 +10,8 @@ public enum especialidades {
 	*/
 	Laboratorio,
 	Oftalmologia,
+	Odontologia,
 	MedicinaGeneral,
 	Radiologia,
-	Ortopedia,
-	SinAsignar
+	Ortopedia
 }

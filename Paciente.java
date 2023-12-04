@@ -3,14 +3,14 @@ public class Paciente {
 	// Atributos -- Propiedades
 	private String nombre;
 	private int cedula;
-	private Especialidad especialidades;
+	public Especialidad especialidad;
 	private int tiempoEspera;
 
 	// Constructor
-	private Paciente(String nombre, int cedula, Especialidad especialidad, int tiempoEspera) {
+	public Paciente(String nombre, int cedula, Especialidad especialidad, int tiempoEspera) {
 			this.nombre = nombre;
 			this.cedula = cedula;
-			this.especialidad = especialidades;
+			this.especialidad = especialidad;
 			this.tiempoEspera = tiempoEspera;
 	}
 
